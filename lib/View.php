@@ -15,7 +15,7 @@ class View
     {
         $router = App::getRouter();
         if (!$router){
-            return false;
+            throw new Exception("Router: $router doesn't exist.");
         }
         $controller_dir = $router->getController();
         $tamplate_name = $router->getMethodPrefix().$router->getAction().".html";

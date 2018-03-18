@@ -8,18 +8,24 @@
 
 class PagesController extends Controller
 {
+    public function  __construct($data = [])
+    {
+        parent::__construct($data);
+        $this->model = new page();
+    }
     public function index()
     {
-        $this->data['test_content'] = "Here will be a page list";
+        $this->data['pages'] = $this->model->getList();
     }
 
     public function view()
     {
         $params = App::getRouter()->getParams();
+
         if (isset($params[0])){
             $alias = strtolower($params[0]);
 
-            $this->data['content'] = "Here will be the page {$alias} alias";
+            $this->data['pages'] = $this->model->getByAlias($alias);
         }
     }
 }

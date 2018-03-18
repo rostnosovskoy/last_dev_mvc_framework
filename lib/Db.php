@@ -21,7 +21,7 @@ class Db
 
     public function query($sql)
     {
-        if ($this->connection) {
+        if (!$this->connection) {
             return false;
         }
         $result = $this->connection->query($sql);

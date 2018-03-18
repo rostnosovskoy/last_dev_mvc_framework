@@ -6,7 +6,10 @@
  * Time: 14:42
  */
 
-class MysiteController
+class MysiteController extends Controller
 {
-
+    public function index()
+    {
+        $this->data['mysite_content'] = "Here will be mysite content";
+    }
 }
