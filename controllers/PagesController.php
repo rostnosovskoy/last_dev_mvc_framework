@@ -10,7 +10,7 @@ class PagesController extends Controller
 {
     public function index()
     {
-        $this->data['text_content'] = "Here will be a page list";
+        $this->data['test_content'] = "Here will be a page list";
     }
 
     public function view()

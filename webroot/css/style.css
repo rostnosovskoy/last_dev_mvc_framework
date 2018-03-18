@@ -1,9 +1,8 @@
 body {
     padding-top: 30px;
 }
-form.inp {
-    margin: 7px;
-
+h3 {
+    margin: 50px;
 }
 .started-tamplate {
     padding: 40px 15px;
@@ -13,7 +12,3 @@ form{
     max-width: 400px;
 }
 
-body.div.form.div {
-    margin-top: 5px;
-    margin: 10px;
-}
