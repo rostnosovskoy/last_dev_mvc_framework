@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd487844-ff41-4b95-8aac-1ab8f7a377f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/pages/admin_add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/pages/admin_edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/pages/admin_index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/js/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/PagesController.php" afterPath="$PROJECT_DIR$/controllers/PagesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Router.php" afterPath="$PROJECT_DIR$/lib/Router.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Message.php" afterPath="$PROJECT_DIR$/models/Message.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/page.php" afterPath="$PROJECT_DIR$/models/page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin.html" afterPath="$PROJECT_DIR$/views/admin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/contacts/index.html" afterPath="$PROJECT_DIR$/views/contacts/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/default.html" afterPath="$PROJECT_DIR$/views/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/style.css" afterPath="$PROJECT_DIR$/webroot/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/pages/admin_add.html" afterPath="$PROJECT_DIR$/views/pages/admin_add.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PagesController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PagesController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/PagesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="42" column="39" lean-forward="false" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+            <state relative-caret-position="422">
+              <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_add.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin_add.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/pages/admin_add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="23" column="89" lean-forward="false" selection-start-line="23" selection-start-column="89" selection-end-line="23" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -101,16 +93,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/admin.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,13 +106,41 @@
       <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="422">
+              <caret line="72" column="36" lean-forward="false" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
               <folding>
-                <marker date="1521407464681" expanded="true" signature="195:222" ph="select * fro... pages" />
-                <marker date="1521407464681" expanded="true" signature="460:504" ph="select * fro... pages" />
-                <marker date="1521407464681" expanded="true" signature="460:512" ph="select * fro... pages" />
-                <marker date="1521407464681" expanded="true" signature="697:746" ph="select * fro... pages" />
+                <marker date="1521410168768" expanded="true" signature="195:222" ph="select * fro... pages" />
+                <marker date="1521410168768" expanded="true" signature="460:504" ph="select * fro... pages" />
+                <marker date="1521410168768" expanded="true" signature="460:512" ph="select * fro... pages" />
+                <marker date="1521410168768" expanded="true" signature="697:746" ph="select * fro... pages" />
+                <marker date="1521410168768" expanded="true" signature="1351:1510" ph="insert into message... " />
+                <marker date="1521410168768" expanded="true" signature="1351:1572" ph="insert into message... " />
+                <marker date="1521410168768" expanded="true" signature="1672:1914" ph="update messa... " />
+                <marker date="1521410168768" expanded="true" signature="2077:2106" ph="delete from " />
+                <marker date="1521410168768" expanded="true" signature="2077:2111" ph="delete from " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Message.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/Message.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+              <folding>
+                <marker date="1521409600468" expanded="true" signature="557:604" ph="insert into message... " />
+                <marker date="1521409600468" expanded="true" signature="557:613" ph="insert into message... " />
+                <marker date="1521409600468" expanded="true" signature="557:651" ph="insert into message... " />
+                <marker date="1521409600468" expanded="true" signature="557:653" ph="insert into message... " />
+                <marker date="1521409600468" expanded="true" signature="557:661" ph="insert into message... " />
+                <marker date="1521409600468" expanded="true" signature="557:701" ph="insert into message... " />
+                <marker date="1521409600468" expanded="true" signature="557:703" ph="insert into message... " />
+                <marker date="1521409600468" expanded="true" signature="557:714" ph="insert into message... " />
+                <marker date="1521409600468" expanded="true" signature="814:966" ph="update messa... " />
+                <marker date="1521409600468" expanded="true" signature="814:993" ph="update messa... " />
+                <marker date="1521409600468" expanded="true" signature="814:994" ph="update messa... " />
+                <marker date="1521409600468" expanded="true" signature="814:999" ph="update messa... " />
               </folding>
             </state>
           </provider>
@@ -174,7 +184,6 @@
         <option value="$PROJECT_DIR$/views/pages/index.html" />
         <option value="$PROJECT_DIR$/lib/Session.php" />
         <option value="$PROJECT_DIR$/webroot/index.php" />
-        <option value="$PROJECT_DIR$/models/Message.php" />
         <option value="$PROJECT_DIR$/controllers/ContactsController.php" />
         <option value="$PROJECT_DIR$/views/default.html" />
         <option value="$PROJECT_DIR$/views/contacts/index.html" />
@@ -182,10 +191,12 @@
         <option value="$PROJECT_DIR$/webroot/js/admin.js" />
         <option value="$PROJECT_DIR$/views/admin.html" />
         <option value="$PROJECT_DIR$/views/pages/admin_index.html" />
-        <option value="$PROJECT_DIR$/models/page.php" />
         <option value="$PROJECT_DIR$/lib/Router.php" />
-        <option value="$PROJECT_DIR$/controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/views/pages/admin_edit.html" />
+        <option value="$PROJECT_DIR$/views/pages/admin_add.html" />
+        <option value="$PROJECT_DIR$/models/Message.php" />
+        <option value="$PROJECT_DIR$/models/page.php" />
+        <option value="$PROJECT_DIR$/controllers/PagesController.php" />
       </list>
     </option>
   </component>
@@ -326,12 +337,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521290561044</updated>
-      <workItem from="1521290562798" duration="38197000" />
+      <workItem from="1521290562798" duration="39688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38197000" />
+    <option name="totallyTimeSpent" value="39688000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="738" extended-state="6" />
@@ -579,27 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/Message.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <marker date="1521385824594" expanded="true" signature="557:604" ph="insert into message... " />
-            <marker date="1521385824594" expanded="true" signature="557:613" ph="insert into message... " />
-            <marker date="1521385824594" expanded="true" signature="557:650" ph="insert into message... " />
-            <marker date="1521385824594" expanded="true" signature="557:652" ph="insert into message... " />
-            <marker date="1521385824594" expanded="true" signature="557:660" ph="insert into message... " />
-            <marker date="1521385824594" expanded="true" signature="557:697" ph="insert into message... " />
-            <marker date="1521385824594" expanded="true" signature="557:699" ph="insert into message... " />
-            <marker date="1521385824594" expanded="true" signature="557:710" ph="insert into message... " />
-            <marker date="1521385824594" expanded="true" signature="810:958" ph="update messa... " />
-            <marker date="1521385824594" expanded="true" signature="810:985" ph="update messa... " />
-            <marker date="1521385824594" expanded="true" signature="810:986" ph="update messa... " />
-            <marker date="1521385824594" expanded="true" signature="810:991" ph="update messa... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/default.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -663,31 +653,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <marker date="1521407464681" expanded="true" signature="195:222" ph="select * fro... pages" />
-            <marker date="1521407464681" expanded="true" signature="460:504" ph="select * fro... pages" />
-            <marker date="1521407464681" expanded="true" signature="460:512" ph="select * fro... pages" />
-            <marker date="1521407464681" expanded="true" signature="697:746" ph="select * fro... pages" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Router.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
           <caret line="130" column="34" lean-forward="false" selection-start-line="130" selection-start-column="34" selection-end-line="130" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/PagesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="42" column="39" lean-forward="false" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -702,8 +671,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/pages/admin_add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="23" column="89" lean-forward="false" selection-start-line="23" selection-start-column="89" selection-end-line="23" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding>
+            <marker date="1521409600468" expanded="true" signature="557:604" ph="insert into message... " />
+            <marker date="1521409600468" expanded="true" signature="557:613" ph="insert into message... " />
+            <marker date="1521409600468" expanded="true" signature="557:651" ph="insert into message... " />
+            <marker date="1521409600468" expanded="true" signature="557:653" ph="insert into message... " />
+            <marker date="1521409600468" expanded="true" signature="557:661" ph="insert into message... " />
+            <marker date="1521409600468" expanded="true" signature="557:701" ph="insert into message... " />
+            <marker date="1521409600468" expanded="true" signature="557:703" ph="insert into message... " />
+            <marker date="1521409600468" expanded="true" signature="557:714" ph="insert into message... " />
+            <marker date="1521409600468" expanded="true" signature="814:966" ph="update messa... " />
+            <marker date="1521409600468" expanded="true" signature="814:993" ph="update messa... " />
+            <marker date="1521409600468" expanded="true" signature="814:994" ph="update messa... " />
+            <marker date="1521409600468" expanded="true" signature="814:999" ph="update messa... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="72" column="36" lean-forward="false" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+          <folding>
+            <marker date="1521410168768" expanded="true" signature="195:222" ph="select * fro... pages" />
+            <marker date="1521410168768" expanded="true" signature="460:504" ph="select * fro... pages" />
+            <marker date="1521410168768" expanded="true" signature="460:512" ph="select * fro... pages" />
+            <marker date="1521410168768" expanded="true" signature="697:746" ph="select * fro... pages" />
+            <marker date="1521410168768" expanded="true" signature="1351:1510" ph="insert into message... " />
+            <marker date="1521410168768" expanded="true" signature="1351:1572" ph="insert into message... " />
+            <marker date="1521410168768" expanded="true" signature="1672:1914" ph="update messa... " />
+            <marker date="1521410168768" expanded="true" signature="2077:2106" ph="delete from " />
+            <marker date="1521410168768" expanded="true" signature="2077:2111" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/PagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
         </state>
       </provider>

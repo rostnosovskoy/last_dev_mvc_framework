@@ -23,15 +23,15 @@ class Message extends Model
             $sql = "
                 insert into message 
                 set name = '{$name}',        
-                    name = '{$email}',        
-                    name = '{$message}'        
+                    email = '{$email}',        
+                    message = '{$message}'        
             ";
         }else { // Update exist record
             $sql = "
                 update message 
                 set name = '{$name}',        
-                    name = '{$email}',        
-                    name = '{$message}'
+                    email = '{$email}',        
+                    message = '{$message}'
                 where id = {$id}        
             ";
         }
