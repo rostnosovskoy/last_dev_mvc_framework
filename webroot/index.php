@@ -28,3 +28,7 @@ $userUri = substr($uri, 10);
 //echo "</pre>";
 
 App::run($userUri);
+
+$test = App::$db->query('select * from pages');
+echo "<pre>";
+print_r($test);

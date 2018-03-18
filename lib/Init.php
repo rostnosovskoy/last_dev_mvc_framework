@@ -21,7 +21,9 @@ function __autoload($classname)
     } else {
         throw new Exception("Failed include file $classname.php");
     }
+}
 
-
-
+function __($key, $default_value = '')
+{
+    return Lang::get($key, $default_value);
 }

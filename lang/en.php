@@ -1,7 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Ростислав
- * Date: 17.03.2018
- * Time: 17:29
- */
+
+return [
+    'lng.test' => 'Sample text',
+];

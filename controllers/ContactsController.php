@@ -6,7 +6,9 @@
  * Time: 20:52
  */
 
-class ContactsController
+class ContactsController extends Controller
 {
-
+    public function index()
+    {
+    }
 }
