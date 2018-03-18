@@ -8,7 +8,7 @@
 
 class PagesController extends Controller
 {
-    public function  __construct($data = [])
+    public function __construct($data = [])
     {
         parent::__construct($data);
         $this->model = new page();
@@ -25,7 +25,7 @@ class PagesController extends Controller
         if (isset($params[0])){
             $alias = strtolower($params[0]);
 
-            $this->data['pages'] = $this->model->getByAlias($alias);
+            $this->data['page'] = $this->model->getByAlias($alias);
         }
     }
 }

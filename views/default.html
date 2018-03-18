@@ -26,6 +26,12 @@
 <div class="container">
 
     <div class="starter-template">
+
+        <? if( Session::hasFlash() ){?>
+        <div class="alert alert-info" role = "alert">
+            <? Session::flash();?>
+        </div>
+        <?}?>
         <?=$data['content']?>
     </div>
 

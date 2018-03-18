@@ -29,6 +29,8 @@ $userUri = substr($uri, 10);
 
 App::run($userUri);
 
+Session::setFlash('Test flash message!');
+
 $test = App::$db->query('select * from pages');
-echo "<pre>";
-print_r($test);
+//echo "<pre>";
+//print_r($test);
