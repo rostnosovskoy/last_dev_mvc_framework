@@ -28,7 +28,7 @@ class page extends Model
     public function getById($id)
     {
         $id = (int)$id;
-        $sql = "select * from pages WHERE alias = '{$id}' limit 1";
+        $sql = "select * from pages WHERE id = '{$id}' limit 1";
         $result = $this->db->query($sql);
         return isset($result[0]) ? $result[0] : null;
     }
@@ -47,7 +47,7 @@ class page extends Model
 
         if (!$id){ // Add new record
             $sql = "
-                insert into message 
+                insert into pages 
                 set alias = '{$alias}',        
                     title = '{$title}',        
                     content = '{$content}',        

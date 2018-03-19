@@ -1,6 +1,6 @@
 function confirmDelete()
 {
-    if (confirmDelete('Delete this item')){
+    if (confirm('Delete this item?')){
         return true;
     } else
         return false;

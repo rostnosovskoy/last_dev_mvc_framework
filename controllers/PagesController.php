@@ -37,7 +37,6 @@ class PagesController extends Controller
     public function admin_add()
     {
         if ($_POST){
-            $id = isset($_POST['id']) ? $_POST['id'] : null;
             $result = $this->model->save($_POST);
             if ($result){
                 Session::setFlash("Page was saved.");
@@ -45,27 +44,32 @@ class PagesController extends Controller
             {
                 Session::setFlash("Error");
             }
-            Router::redirect('/devionity/admin/pages');
+            Router::redirect('/devionity/admin/pages/');
         }
     }
 
-//    public function admin_add()
-//    {
-//        if ($_POST){
-//            echo "<pre>";
-//            print_r($_POST);
-//            die;
-//        }
-//    }
 
     public function admin_edit()
     {
-        if (isset($this->params[0])){
-            $this->data['page'] = $this->model->getById($this->params[0]);
+        if ($_POST)
+        {
+            $id = isset($_POST['id']) ? $_POST['id'] : null;
+            $result = $this->model->save($_POST, $id);
+        if ($result){
+            Session::setFlash("Page was saved");
         } else{
-            Session::setFlash("Wrong page id");
-            Router::redirect("devionity/admin/pages/");
+            Session::setFlash("Erorr.");
         }
+        Router::redirect("devionity/admin/pages/");
+        }
+
+        if (isset($this->params[0])) {
+            $this->data['page'] = $this->model->getById($this->params[0]);
+        } else {
+                Session::setFlash("Wrong page id.");
+                Router::redirect('/devionity/admin/pages/');
+            }
+
     }
 
     public function admin_delete()
